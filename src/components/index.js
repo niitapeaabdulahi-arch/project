@@ -1,0 +1,18 @@
+// Re-export all UI components for short page imports
+
+export { default as AgentCard } from './AgentCard'
+export { default as BlogCard } from './BlogCard'
+export { default as Button } from './Button'
+export { default as CategoryCard } from './CategoryCard'
+export { default as Footer } from './Footer'
+export { default as Header } from './Header'
+export { default as Hero } from './Hero'
+export { default as Icon } from './Icon'
+export { default as MotionReveal } from './MotionReveal'
+export { default as Newsletter } from './Newsletter'
+export { default as PropertyCard } from './PropertyCard'
+export { default as SearchBar } from './SearchBar'
+export { default as SectionTitle } from './SectionTitle'
+export { default as ServiceCard } from './ServiceCard'
+export { default as Stats } from './Stats'
+export { default as TestimonialCard } from './TestimonialCard'
