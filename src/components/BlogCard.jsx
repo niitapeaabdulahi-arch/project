@@ -10,7 +10,7 @@ function BlogCard({
   author,
   category,
   to,
-  readMoreLabel = 'Sii Akhri',
+  readMoreLabel = 'Read More',
   byLabel = 'Qoray',
 }) {
   return (

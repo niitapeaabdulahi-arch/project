@@ -1,230 +1,229 @@
-// Page titles and UI copy (Af-Soomaali)
+// Page titles and UI copy (English)
 
 export const homeSections = {
   featured: {
-    eyebrow: 'Liisaska Muhiimka ah',
-    title: 'Guryaha La Soo Xulay',
-    subtitle: 'Sahami guryo iyo xarumaha aanu si taxaddar leh u doorannay.',
-    ctaLabel: 'Arag Dhammaan Guryaha',
+    eyebrow: 'Featured Listings',
+    title: 'Handpicked Homes',
+    subtitle: 'Explore homes and spaces we carefully select for quality and lifestyle.',
+    ctaLabel: 'View All Properties',
     ctaTo: '/properties',
   },
   categories: {
-    eyebrow: 'Raadi Nooca',
-    title: 'Noocyada Guryaha',
-    subtitle: 'Hel meesha ku habboon deggenaansho, shaqo, ama maalgashi.',
-    countSuffix: 'Guri',
+    eyebrow: 'Browse by Type',
+    title: 'Property Categories',
+    subtitle: 'Find the right place for living, working, or investing.',
+    countSuffix: 'Properties',
   },
   whyChooseUs: {
-    eyebrow: 'Ballanqaadkeenna',
-    title: 'Maxaad Noogu Doorataa',
-    subtitle: 'Khibrad guri oo raaxo leh oo ku dhisan kalsooni, tayo, iyo natiijo.',
+    eyebrow: 'Our Promise',
+    title: 'Why Choose Us',
+    subtitle: 'A smoother property experience built on trust, quality, and results.',
   },
   agents: {
-    eyebrow: 'Xirfadlayaasha',
-    title: 'Wakiilladeenna',
-    subtitle: 'La kulmo khubaro ka dhigaya waddadaadu mid fudud oo guul leh.',
+    eyebrow: 'The Professionals',
+    title: 'Meet Our Agents',
+    subtitle: 'Work with experts who make your journey clear and successful.',
   },
   testimonials: {
-    eyebrow: 'Sheekooyinka Macaamiisha',
-    title: 'Faallooyinka',
-    subtitle: 'Maqal macaamiishii ka helay gurigooda ku habboon Estate.',
+    eyebrow: 'Client Stories',
+    title: 'Testimonials',
+    subtitle: 'Hear from clients who found their perfect home with Estate.',
   },
-  searchSubmitLabel: 'Raadi Guri',
+  searchSubmitLabel: 'Search Homes',
 }
 
 export const pageHeroes = {
   properties: {
-    eyebrow: 'Liisaska',
-    title: 'Guryaha',
+    eyebrow: 'Listings',
+    title: 'Properties',
     subtitle:
-      'Raadi, shaandhee, oo sahami guryo, villa, iyo meelo ganacsi oo tayo leh Muqdisho.',
+      'Search, filter, and explore quality homes, villas, and commercial spaces in Mogadishu.',
   },
   about: {
-    eyebrow: 'Cidda Aan Nahay',
-    title: 'Nagu Saabsan Estate',
+    eyebrow: 'Who We Are',
+    title: 'About Estate',
     subtitle:
-      'Wakaalad guri oo casri ah oo ku taal Muqdisho, Soomaaliya, oo u heellan khibrad wanaagsan oo iib, kiro, iyo maalgashi.',
+      'A modern real estate agency in Mogadishu, Somalia, dedicated to a better buying, renting, and investing experience.',
   },
   services: {
-    eyebrow: 'Xalalka',
-    title: 'Adeegyadeenna',
+    eyebrow: 'Solutions',
+    title: 'Our Services',
     subtitle:
-      'Adeegyo dhammaystiran oo loogu talagalay iibsadayaasha, iibiyaasha, kiraystayaasha, iyo maalgashadayaasha.',
+      'Complete services designed for buyers, sellers, renters, and investors.',
   },
   agents: {
-    eyebrow: 'Khubarada',
-    title: 'Wakiilladeenna',
+    eyebrow: 'Experts',
+    title: 'Our Agents',
     subtitle:
-      'La shaqee khubaro la aamino oo isku dhafan aqoon suuqa Muqdisho iyo adeeg tayo sare leh.',
+      'Work with trusted professionals who combine Mogadishu market knowledge with high-quality service.',
   },
   blog: {
-    eyebrow: 'Agabka',
-    title: 'Bloggeenna',
-    subtitle: 'Hagayaal, wararka suuqa, iyo talooyin kaa caawinaya go\'aanno caqli leh.',
+    eyebrow: 'Resources',
+    title: 'Our Blog',
+    subtitle: 'Guides, market news, and tips to help you make smarter decisions.',
   },
   contact: {
-    eyebrow: 'Nala Soo Xiriir',
-    title: 'Xiriir',
-    subtitle: 'La soo xiriir kooxdeenna — waxaanu kaa caawinnaa liisas, booqashooyin, iyo talo khibrad leh.',
+    eyebrow: 'Get in Touch',
+    title: 'Contact',
+    subtitle: 'Reach our team — we help with listings, viewings, and expert advice.',
   },
 }
 
 export const pageSections = {
   about: {
-    journeyEyebrow: 'Safarkeenna',
+    journeyEyebrow: 'Our Journey',
     team: {
-      eyebrow: 'Hogaanka',
-      title: 'Kooxdeenna',
-      subtitle: 'La kulmo xirfadlayaasha keenaya khibrad iyo daryeel safar kasta oo macaamiil ah.',
+      eyebrow: 'Leadership',
+      title: 'Our Team',
+      subtitle: 'Meet the professionals bringing expertise and care to every client journey.',
     },
   },
   services: {
     offer: {
-      eyebrow: 'Waxaan Bixinnaa',
-      title: 'Adeegyo Kugu Habboon',
-      subtitle: 'Laga bilaabo wadahadalka ugu horreeya ilaa xiritaanka, waxaanu keennaa caddayn iyo kalsooni.',
+      eyebrow: 'What We Offer',
+      title: 'Services Built Around You',
+      subtitle: 'From the first conversation to closing, we bring clarity and confidence.',
     },
     cta: {
-      title: 'Diyaar ma u tahay inaad bilowdo?',
-      subtitle: 'La hadal kooxdeenna oo hel wadada adeeg ee ku habboon himilooyinkaaga guri.',
-      buttonLabel: 'Nala Soo Xiriir',
+      title: 'Ready to get started?',
+      subtitle: 'Talk to our team and find the right service path for your property goals.',
+      buttonLabel: 'Contact Us',
       buttonTo: '/contact',
     },
   },
   agents: {
     meet: {
-      eyebrow: 'La Kulmo Kooxda',
-      title: 'Xirfadlayaal Guri oo U Heellan',
-      subtitle: 'Wakiil kasta wuxuu keenayaa khibrad, daacadnimo, iyo ballanqaad guushaada.',
+      eyebrow: 'Meet the Team',
+      title: 'Dedicated Property Professionals',
+      subtitle: 'Every agent brings expertise, integrity, and a commitment to your success.',
     },
     cta: {
-      prompt: 'Ma raadinaysaa hagitaan shaqsiyeed?',
-      buttonLabel: 'Hel Wakiil Kugu Habboon',
+      prompt: 'Looking for personal guidance?',
+      buttonLabel: 'Find Your Agent',
       buttonTo: '/contact',
     },
   },
   blog: {
     latest: {
-      eyebrow: 'Maqaallada Ugu Dambeeyay',
-      title: 'Aragtiyo Ka Yimid Khubaradeenna',
-      subtitle: 'La soco talooyin wax ku ool ah oo ka yimid kooxda Estate.',
+      eyebrow: 'Latest Articles',
+      title: 'Insights from Our Experts',
+      subtitle: 'Stay up to date with practical advice from the Estate team.',
     },
   },
   properties: {
-    allLabel: 'Dhammaan',
-    clearFilters: 'Nadiifi Shaandhaynta',
-    resetFilters: 'Dib u Deji',
-    showingPrefix: 'Waxaa la muujinayaa',
-    showingSuffix: 'guri',
-    emptyTitle: 'Lama helin guryo',
-    emptySubtitle: 'Isku day inaad beddesho raadinta ama shaandhaynta.',
-    searchSubmitLabel: 'Raadi',
+    allLabel: 'All',
+    clearFilters: 'Clear Filters',
+    resetFilters: 'Reset',
+    showingPrefix: 'Showing',
+    showingSuffix: 'properties',
+    emptyTitle: 'No properties found',
+    emptySubtitle: 'Try adjusting your search or filters.',
+    searchSubmitLabel: 'Search',
   },
   contact: {
     info: {
-      eyebrow: 'Xafiiska',
-      title: 'Macluumaadka Xiriirka',
-      subtitle: 'Noo soo booqo, naga soo wac, ama farriin noo dir. Caadi ahaan waxaanu ka jawaabnaa hal maalin shaqo gudaheed.',
+      eyebrow: 'Office',
+      title: 'Contact Information',
+      subtitle: 'Visit us, call us, or send a message. We usually reply within one business day.',
     },
     form: {
-      title: 'Dir Farriin',
-      subtitle: 'Buuxi foomka, kooxdeenna ayaa kuula soo noqon doonta.',
-      successMessage: 'Mahadsanid! Farriintaada waa la helay.',
-      submitLabel: 'Dir Farriinta',
+      title: 'Send a Message',
+      subtitle: 'Fill out the form and our team will get back to you.',
+      successMessage: 'Thank you! Your message has been received.',
+      submitLabel: 'Send Message',
       fields: {
-        name: { label: 'Magaca Buuxa', placeholder: 'Magacaaga' },
+        name: { label: 'Full Name', placeholder: 'Your name' },
         email: { label: 'Email', placeholder: 'you@email.com' },
-        phone: { label: 'Telefoon', placeholder: '+252 612762407' },
-        subject: { label: 'Mawduuca', placeholder: 'Sidee kuu caawin karnaa?' },
-        message: { label: 'Farriinta', placeholder: 'Noo sheeg waxa aad ka rabto guri...' },
+        phone: { label: 'Phone', placeholder: '+252 612762407' },
+        subject: { label: 'Subject', placeholder: 'How can we help?' },
+        message: { label: 'Message', placeholder: 'Tell us what you are looking for...' },
       },
     },
     map: {
-      eyebrow: 'Noo Soo Booqo',
-      title: 'Hel Xafiiskeenna',
-      subtitle: 'Waxaanu ku nahay Muqdisho, Soomaaliya — noo soo booqo saacadaha shaqada.',
+      eyebrow: 'Visit Us',
+      title: 'Find Our Office',
+      subtitle: 'We are based in Mogadishu, Somalia — visit us during business hours.',
     },
   },
   propertyDetails: {
-    backLabel: '← Ku noqo Guryaha',
-    descriptionTitle: 'Sharaxaad',
-    featuresTitle: 'Astaamaha',
-    listedPriceLabel: 'Qiimaha',
-    contactAgentLabel: 'La Xiriir Wakiilka',
-    emailAgentLabel: 'Email u Dir Wakiilka',
+    backLabel: '← Back to Properties',
+    descriptionTitle: 'Description',
+    featuresTitle: 'Features',
+    listedPriceLabel: 'Listed Price',
+    contactAgentLabel: 'Contact Agent',
+    emailAgentLabel: 'Email Agent',
     similar: {
-      title: 'Guryo La Mid ah',
-      subtitle: 'Sahami liisas kale oo aad jeceshahay.',
+      title: 'Similar Properties',
+      subtitle: 'Explore other listings you may like.',
     },
     overviewLabels: {
-      bedrooms: 'Qolalka Jiifka',
-      bathrooms: 'Musqulaha',
-      area: 'Baaxadda',
-      status: 'Xaaladda',
-      type: 'Nooca',
-      location: 'Goobta',
+      bedrooms: 'Bedrooms',
+      bathrooms: 'Bathrooms',
+      area: 'Area',
+      status: 'Status',
+      type: 'Type',
+      location: 'Location',
     },
   },
 }
 
 export const aboutContent = {
-  storyTitle: 'Sheekada Shirkadda',
+  storyTitle: 'Our Story',
   story:
-    'Waxaa lagu aasaasay Muqdisho, Soomaaliya, iyadoo xamaasad loo qabo guryo tayo leh iyo xiriir macaamiil oo waara. Estate waxay noqotay lammaane guri oo la aamino. Waxaanu isku darnaa aqoon suuqa maxalliga ah iyo adeeg shaqsiyeed si aanu uga caawinno dadka iibsiga, iibinta, iyo maalgashiga si kalsooni leh.',
+    'Founded in Mogadishu, Somalia, with a passion for quality homes and lasting client relationships, Estate has grown into a trusted real estate partner. We combine local market knowledge with personal service to help people buy, sell, and invest with confidence.',
   storyImage: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80',
   mission: {
-    title: 'Hadafkeenna',
-    text: 'Inaanu ka caawinno dadka Soomaaliyeed inay helaan guryo iyo maalgashi hagaajiya noloshooda si daacadnimo, daryeel, iyo hagitaan xirfadeed oo aan la mid ahayn.',
+    title: 'Our Mission',
+    text: 'To help people in Somalia find homes and investments that improve their lives through honesty, care, and unmatched professional guidance.',
   },
   vision: {
-    title: 'Aragtideenna',
-    text: 'Inaanu noqonno lammaanaha guri ee ugu kalsoonida badan Muqdisho, oo lagu yaqaan khibrad sare, adeeg nadiif ah, iyo natiijooyin wanaagsan.',
+    title: 'Our Vision',
+    text: 'To be the most trusted real estate partner in Mogadishu, known for elevated experiences, clear service, and strong results.',
   },
 }
 
 export const aboutPoints = [
   {
-    title: 'Hadafkeenna',
-    text: 'Inaanu ka caawinno dadka Soomaaliya inay helaan guryo iyo maalgashi hagaajiya noloshooda si daacadnimo iyo daryeel.',
+    title: 'Our Mission',
+    text: 'To help people in Somalia find homes and investments that improve their lives through honesty and care.',
   },
   {
-    title: 'Aragtideenna',
-    text: 'Inaanu noqonno lammaanaha guri ee ugu kalsoonida badan Muqdisho, oo lagu yaqaan khibrad, adeeg, iyo natiijo.',
+    title: 'Our Vision',
+    text: 'To be the most trusted real estate partner in Mogadishu, known for expertise, service, and results.',
   },
   {
-    title: 'Qiyamkeenna',
-    text: 'Daacadnimo, daahfurnaan, iyo go\'aanno macaamiisha ugu horreeya ayaa hagaya talo kasta oo aanu bixinno.',
+    title: 'Our Values',
+    text: 'Integrity, transparency, and client-first decisions guide every recommendation we make.',
   },
 ]
 
 export const contactDetails = [
-  { label: 'Cinwaanka', value: 'Muqdisho, Soomaaliya', icon: 'map' },
+  { label: 'Address', value: 'Mogadishu, Somalia', icon: 'map' },
   { label: 'Email', value: 'niitapeaabdulahi@gmail.com', icon: 'email' },
-  { label: 'Telefoon', value: '+252 612762407', icon: 'phone' },
-  { label: 'Saacadaha', value: 'Isniin – Jimce, 9:00 subaxnimo – 6:00 galabnimo', icon: 'clock' },
+  { label: 'Phone', value: '+252 612762407', icon: 'phone' },
+  { label: 'Hours', value: 'Mon – Fri, 9:00 AM – 6:00 PM', icon: 'clock' },
 ]
 
 export const heroContent = {
   brand: 'Estate',
-  title: 'Hel Gurigaaga Riyada ah',
+  title: 'Find Your Dream Home',
   subtitle:
-    'Sahami guryo tayo leh oo ku yaal Muqdisho, Soomaaliya, oo la shaqee wakiillo la aamino iyo adeeg shaqsiyeed.',
-  primaryCta: { label: 'Baadh Guryaha', to: '/properties' },
-  secondaryCta: { label: 'Nala Soo Xiriir', to: '/contact' },
+    'Explore quality properties across Mogadishu, Somalia, with trusted agents and personal service.',
+  primaryCta: { label: 'Browse Properties', to: '/properties' },
+  secondaryCta: { label: 'Contact Us', to: '/contact' },
   backgroundImage: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1600&q=80',
 }
 
 export const mapEmbed = {
-  title: 'Khariidadda Google',
-  locationLabel: 'Muqdisho, Soomaaliya',
-  // Google Maps embed — Xafiiska Muqdisho
-  src: 'https://www.google.com/maps?q=Mogadishu,+Somalia&hl=so&z=13&output=embed',
+  title: 'Mogadishu Map',
+  locationLabel: 'Mogadishu, Somalia',
+  src: 'https://www.google.com/maps?q=Mogadishu,+Somalia&hl=en&z=13&output=embed',
 }
 
 export const uiLabels = {
-  viewDetails: 'Arag Faahfaahinta',
-  readMore: 'Sii Akhri',
-  byAuthor: 'Qoray',
-  beds: 'Jiif',
-  baths: 'Musqul',
+  viewDetails: 'View Details',
+  readMore: 'Read More',
+  byAuthor: 'By',
+  beds: 'Beds',
+  baths: 'Baths',
 }

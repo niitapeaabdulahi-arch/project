@@ -14,7 +14,7 @@ function PropertyCard({
   area,
   status,
   to,
-  detailsLabel = 'Arag Faahfaahinta',
+  detailsLabel = 'View Details',
   bedsLabel = 'Jiif',
   bathsLabel = 'Musqul',
 }) {

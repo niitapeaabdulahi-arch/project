@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { SectionTitle, PropertyCard, Button, MotionReveal } from '../components'
-import { properties, agents, pageSections } from '../data'
+import { properties, agents, categories, pageSections } from '../data'
 
 function PropertyDetails() {
   const { id } = useParams()
@@ -15,6 +15,8 @@ function PropertyDetails() {
   }, [property.id])
 
   const agent = agents.find((item) => item.id === property.agentId) || agents[0]
+  const categoryName =
+    categories.find((item) => item.slug === property.category)?.name || property.category
   const relatedProperties = useMemo(
     () => properties.filter((item) => item.id !== property.id).slice(0, 3),
     [property.id],
@@ -31,7 +33,7 @@ function PropertyDetails() {
     },
     { label: copy.overviewLabels.area, value: property.area },
     { label: copy.overviewLabels.status, value: property.status },
-    { label: copy.overviewLabels.type, value: property.category },
+    { label: copy.overviewLabels.type, value: categoryName },
     { label: copy.overviewLabels.location, value: property.location },
   ]
 

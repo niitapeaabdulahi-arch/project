@@ -60,7 +60,7 @@ function Header({ logo, links = [], ctaLabel, ctaTo }) {
           <button
             type="button"
             className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-brand-100 text-brand-800 transition duration-300 hover:border-brand-200 hover:bg-brand-50 lg:hidden"
-            aria-label="Fur ama xir liiska"
+            aria-label="Open or close menu"
             aria-expanded={isOpen}
             onClick={() => setIsOpen((open) => !open)}
           >

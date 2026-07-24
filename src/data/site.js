@@ -1,39 +1,39 @@
 // Branding, navigation, and newsletter
 
 export const navigationLinks = [
-  { label: 'Hoyga', to: '/' },
-  { label: 'Guryaha', to: '/properties' },
-  { label: 'Adeegyada', to: '/services' },
-  { label: 'Wakiillada', to: '/agents' },
+  { label: 'Home', to: '/' },
+  { label: 'Properties', to: '/properties' },
+  { label: 'Services', to: '/services' },
+  { label: 'Agents', to: '/agents' },
   { label: 'Blog', to: '/blog' },
-  { label: 'Nagu Saabsan', to: '/about' },
-  { label: 'Nala Soo Xiriir', to: '/contact' },
+  { label: 'About', to: '/about' },
+  { label: 'Contact', to: '/contact' },
 ]
 
 export const footerLinks = [
   {
-    title: 'Sahamin',
+    title: 'Explore',
     links: [
-      { label: 'Hoyga', to: '/' },
-      { label: 'Guryaha', to: '/properties' },
-      { label: 'Adeegyada', to: '/services' },
-      { label: 'Wakiillada', to: '/agents' },
+      { label: 'Home', to: '/' },
+      { label: 'Properties', to: '/properties' },
+      { label: 'Services', to: '/services' },
+      { label: 'Agents', to: '/agents' },
     ],
   },
   {
-    title: 'Shirkadda',
+    title: 'Company',
     links: [
-      { label: 'Nagu Saabsan', to: '/about' },
+      { label: 'About', to: '/about' },
       { label: 'Blog', to: '/blog' },
-      { label: 'Nala Soo Xiriir', to: '/contact' },
+      { label: 'Contact', to: '/contact' },
     ],
   },
   {
-    title: 'Taageero',
+    title: 'Support',
     links: [
-      { label: 'Su\'aalaha Badanka', to: '/contact' },
-      { label: 'Qaanuunka Asturnaanta', to: '/about' },
-      { label: 'Shuruudaha Adeegga', to: '/about' },
+      { label: 'FAQ', to: '/contact' },
+      { label: 'Privacy Policy', to: '/about' },
+      { label: 'Terms of Service', to: '/about' },
     ],
   },
 ]
@@ -48,16 +48,16 @@ export const footerSocialLinks = [
 export const siteInfo = {
   brand: 'Estate',
   description:
-    'Xafiiska Weyn: Muqdisho, Soomaaliya. Telefoon: +252 612762407. Email: niitapeaabdulahi@gmail.com. Waxaanu kaa caawinnaa inaad hesho guriga ku habboon Muqdisho, wakiillo la aamino iyo liisas tayo sare leh.',
-  copyright: `© ${new Date().getFullYear()} Estate. Xuquuqda oo dhan waa la xafiday.`,
-  ctaLabel: 'Nala Soo Xiriir',
+    'Head Office: Mogadishu, Somalia. Phone: +252 612762407. Email: niitapeaabdulahi@gmail.com. We help you find the right home in Mogadishu with trusted agents and quality listings.',
+  copyright: `© ${new Date().getFullYear()} Estate. All rights reserved.`,
+  ctaLabel: 'Contact Us',
   ctaTo: '/contact',
 }
 
 export const newsletterContent = {
-  title: 'La Soco Suuqa Guryaha ee Muqdisho',
+  title: 'Stay Ahead of the Mogadishu Market',
   subtitle:
-    'Hel liisas gaar ah, talooyin qiimo leh, iyo wararka suuqa Soomaaliya ee emailkaaga.',
-  placeholder: 'Geli emailkaaga',
-  buttonLabel: 'Isdiiwaangeli',
+    'Get exclusive listings, pricing tips, and Somalia market news delivered to your inbox.',
+  placeholder: 'Enter your email',
+  buttonLabel: 'Subscribe',
 }

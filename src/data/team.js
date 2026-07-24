@@ -1,10 +1,10 @@
-// Wakiillo, adeegyo, tirooyin, faallooyin, iyo blog
+// Agents, services, stats, testimonials, and blog
 
 export const agents = [
   {
     id: 1,
     name: 'Ayaan Warsame',
-    role: 'Wakiil Guri oo Sare',
+    role: 'Senior Real Estate Agent',
     email: 'niitapeaabdulahi@gmail.com',
     phone: '+252 612762407',
     image: 'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=600&q=80',
@@ -16,7 +16,7 @@ export const agents = [
   {
     id: 2,
     name: 'Guuleed Samatar',
-    role: 'Khabiir Guryaha Raaxada',
+    role: 'Luxury Homes Specialist',
     email: 'niitapeaabdulahi@gmail.com',
     phone: '+252 612762407',
     image: 'https://images.unsplash.com/photo-1522529599109-9892c3d4c2e6?w=600&q=80',
@@ -28,7 +28,7 @@ export const agents = [
   {
     id: 3,
     name: 'Hodan Rooble',
-    role: 'Wakiil Iibka Guryaha',
+    role: 'Residential Sales Agent',
     email: 'niitapeaabdulahi@gmail.com',
     phone: '+252 612762407',
     image: 'https://images.unsplash.com/photo-1589156280159-27698a70f29e?w=600&q=80',
@@ -40,7 +40,7 @@ export const agents = [
   {
     id: 4,
     name: 'Libaan Geedi',
-    role: 'Lataliye Guryaha Ganacsiga',
+    role: 'Commercial Property Advisor',
     email: 'niitapeaabdulahi@gmail.com',
     phone: '+252 612762407',
     image: 'https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=600&q=80',
@@ -54,44 +54,44 @@ export const agents = [
 export const services = [
   {
     id: 1,
-    title: 'Iibsiga Guriga',
+    title: 'Home Buying',
     description:
-      'Hagitaan khibrad leh oo ku saabsan tallaabo kasta oo aad ku iibsanayso gurigaaga riyada ah ama maalgashiga.',
+      'Expert guidance through every step of purchasing your dream home or investment property.',
     icon: 'home',
   },
   {
     id: 2,
-    title: 'Iibinta Guriga',
+    title: 'Home Selling',
     description:
-      'Suuqgeyeyn iyo gorgortan istiraatiiji ah si aad ugu iibiso gurigaaga qiimaha ugu fiican ee suuqa.',
+      'Strategic marketing and negotiation to sell your property at the best market value.',
     icon: 'key',
   },
   {
     id: 3,
-    title: 'Kireynta Guryaha',
+    title: 'Property Rentals',
     description:
-      'Hel kiraystayaal la aamino ama guri kiro ah oo ku habboon adeegyadeenna kireynta ee la aamino.',
+      'Find trusted tenants or the right rental home with our reliable leasing services.',
     icon: 'clipboard',
   },
   {
     id: 4,
-    title: 'Maamulka Guriga',
+    title: 'Property Management',
     description:
-      'Maamul buuxa oo ay ku jiraan dayactirka, xiriirka kiraystayaasha, iyo warbixinnada maaliyadeed.',
+      'Full management including maintenance, tenant communication, and financial reporting.',
     icon: 'settings',
   },
   {
     id: 5,
-    title: 'La-talinta Maalgashiga',
+    title: 'Investment Consulting',
     description:
-      'Talo ku salaysan xog si aad u dhisto oo u kordhiso maalgashi guri oo faa\'iido leh.',
+      'Data-driven advice to build and grow a profitable real estate portfolio.',
     icon: 'trending',
   },
   {
     id: 6,
-    title: 'Qiimeynta Guriga',
+    title: 'Property Valuation',
     description:
-      'Qiimeyn suuq oo sax ah si aad u samayso go\'aanno iibsi ama iibin oo xog leh.',
+      'Accurate market valuations so you can make informed buy or sell decisions.',
     icon: 'dollar',
   },
 ]
@@ -99,66 +99,66 @@ export const services = [
 export const whyChooseUs = [
   {
     id: 1,
-    title: 'Khibrad La Aamino',
+    title: 'Trusted Expertise',
     description:
-      'Aqoon qoto dheer oo ku saabsan suuqa Muqdisho iyo natiijooyin cad oo loogu talagalay iibsadayaasha iyo iibiyaasha Soomaaliya.',
+      'Deep knowledge of the Mogadishu market and clear results for buyers and sellers across Somalia.',
     icon: 'shield',
   },
   {
     id: 2,
-    title: 'Liisas Raaxo leh oo La Xulay',
+    title: 'Curated Premium Listings',
     description:
-      'Guryo iyo xarumaha Muqdisho oo si taxaddar leh loo doortay oo buuxiya heerarka tayada iyo nashqada.',
+      'Carefully selected homes and spaces in Mogadishu that meet high standards of quality and design.',
     icon: 'star',
   },
   {
     id: 3,
-    title: 'Adeeg Shaqsiyeed',
+    title: 'Personal Service',
     description:
-      'Wakiillo u heellan oo ku haga caddayn laga bilaabo aragtida ugu horreysa ilaa maalinta xiritaanka.',
+      'Dedicated agents who guide you with clarity from the first viewing to closing day.',
     icon: 'users',
   },
   {
     id: 4,
-    title: 'Khibrad Fudud',
+    title: 'Seamless Experience',
     description:
-      'Qalab casri ah iyo isgaarsiin daahfuran ayaa ka dhigaya tallaabo kasta mid fudud oo kalsooni leh.',
+      'Modern tools and transparent communication make every step simple and confident.',
     icon: 'zap',
   },
 ]
 
 export const statistics = [
-  { value: '2,500+', label: 'Guryo La Liisay' },
-  { value: '1,800+', label: 'Macaamiil Faraxsan' },
-  { value: '150+', label: 'Wakiillo Xirfad leh' },
-  { value: '25+', label: 'Sanooyin Khibrad' },
+  { value: '2,500+', label: 'Properties Listed' },
+  { value: '1,800+', label: 'Happy Clients' },
+  { value: '150+', label: 'Expert Agents' },
+  { value: '25+', label: 'Years of Experience' },
 ]
 
 export const testimonials = [
   {
     id: 1,
     quote:
-      'Kooxdu waxay ka dhigtay iibsiga gurigeennii ugu horreeyay mid fudud. Xirfad, jawaab degdeg ah, iyo daryeel dhab ah.',
+      'The team made buying our first home feel easy. Professional, responsive, and genuinely caring.',
     name: 'Ubax Xirsi',
-    role: 'Iibsade Guri',
+    role: 'Home Buyer',
     avatar: 'https://images.unsplash.com/photo-1507152832244-10d45c7eda57?w=200&q=80',
     rating: 5,
   },
   {
     id: 2,
     quote:
-      'Villa-deenna waxaan ku iibinnay qiimo ka sarreeya midka la weyddiistay laba toddobaad gudahood. Aqoon suuq oo aad u wanaagsan.',
+      'We sold our villa above asking price in two weeks. Outstanding market knowledge.',
     name: 'Samatar Ducaale',
-    role: 'Iibiye Guri',
+    role: 'Home Seller',
     avatar: 'https://images.unsplash.com/photo-1531384441138-2736e62e0919?w=200&q=80',
     rating: 5,
   },
   {
     id: 3,
     quote:
-      'Adeegga kireynta waxay si degdeg ah noo heleen kiraystayaal tayo leh. Maamulka guriga aad buu u fiicnaa.',
+      'Their rental service found us quality tenants quickly. Property management has been excellent.',
     name: 'Canab Guuleed',
-    role: 'Maalgashade',
+    role: 'Investor',
     avatar: 'https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=200&q=80',
     rating: 4,
   },
@@ -167,45 +167,45 @@ export const testimonials = [
 export const blogs = [
   {
     id: 1,
-    title: '10 Talo oo loogu talagalay Iibsadayaasha Guryaha ee Muqdisho',
+    title: '10 Tips for Home Buyers in Mogadishu',
     excerpt:
-      'Talo muhiim ah oo kaa caawinaysa inaad si kalsooni leh ugu dhex martid geedi socodka iibsiga guriga Soomaaliya.',
-    date: '12 Maarso 2026',
+      'Essential advice to help you navigate the home buying process in Somalia with confidence.',
+    date: 'March 12, 2026',
     author: 'Ayaan Warsame',
-    category: 'Hagaha Iibsiga',
+    category: 'Buying Guide',
     image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80',
     to: '/blog',
   },
   {
     id: 2,
-    title: 'Sidee loo Diyaariyaa Guriga si Degdeg ah loogu Iibiyo',
+    title: 'How to Prepare Your Home to Sell Fast',
     excerpt:
-      'Habab fudud oo ka dhigaya gurigaaga Muqdisho mid soo jiidasho leh oo soo jiida iibsadayaasha dhabta ah.',
-    date: '5 Maarso 2026',
+      'Simple ways to make your Mogadishu property more attractive and draw serious buyers.',
+    date: 'March 5, 2026',
     author: 'Guuleed Samatar',
-    category: 'Talooyinka Iibinta',
+    category: 'Selling Tips',
     image: 'https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&q=80',
     to: '/blog',
   },
   {
     id: 3,
-    title: 'Isbeddellada Suuqa Guryaha Soomaaliya 2026',
+    title: 'Somalia Real Estate Market Trends 2026',
     excerpt:
-      'Eeg isbeddellada ugu dambeeyay ee suuqa guryaha Muqdisho iyo waxa ay uga dhigan yihiin iibsadayaasha iyo maalgashadayaasha.',
-    date: '28 Febraayo 2026',
+      'See the latest shifts in the Mogadishu housing market and what they mean for buyers and investors.',
+    date: 'February 28, 2026',
     author: 'Hodan Rooble',
-    category: 'Wararka Suuqa',
+    category: 'Market News',
     image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80',
     to: '/blog',
   },
   {
     id: 4,
-    title: 'Maalgashiga Guryaha Kiro ee Muqdisho',
+    title: 'Investing in Rental Properties in Mogadishu',
     excerpt:
-      'Arrimo muhiim ah oo ay tahay inaad tixgeliso ka hor intaadan ku darin guryo kiro ah maalgashigaaga Soomaaliya.',
-    date: '18 Febraayo 2026',
+      'Key factors to consider before adding rental homes to your investment portfolio in Somalia.',
+    date: 'February 18, 2026',
     author: 'Libaan Geedi',
-    category: 'Maalgashi',
+    category: 'Investment',
     image: 'https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=800&q=80',
     to: '/blog',
   },
