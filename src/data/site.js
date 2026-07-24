@@ -48,7 +48,7 @@ export const footerSocialLinks = [
 export const siteInfo = {
   brand: 'Estate',
   description:
-    'Head Office: Mogadishu, Somalia. Phone: +252 612762407. Email: niitapeaabdulahi@gmail.com. We help you find the right home in Mogadishu with trusted agents and quality listings.',
+    'Head Office: Mogadishu, Somalia. Phone: +252 612762407. Email: info@estate.com. We help you find the right home in Mogadishu with trusted agents and quality listings.',
   copyright: `© ${new Date().getFullYear()} Estate. All rights reserved.`,
   ctaLabel: 'Contact Us',
   ctaTo: '/contact',

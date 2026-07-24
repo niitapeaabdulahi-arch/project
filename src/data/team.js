@@ -5,7 +5,7 @@ export const agents = [
     id: 1,
     name: 'Ayaan Warsame',
     role: 'Senior Real Estate Agent',
-    email: 'niitapeaabdulahi@gmail.com',
+    email: 'info@estate.com',
     phone: '+252 612762407',
     image: 'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=600&q=80',
     socialLinks: [
@@ -17,9 +17,9 @@ export const agents = [
     id: 2,
     name: 'Guuleed Samatar',
     role: 'Luxury Homes Specialist',
-    email: 'niitapeaabdulahi@gmail.com',
+    email: 'info@estate.com',
     phone: '+252 612762407',
-    image: 'https://images.unsplash.com/photo-1522529599109-9892c3d4c2e6?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80',
     socialLinks: [
       { label: 'LinkedIn', href: 'https://linkedin.com', icon: 'linkedin' },
       { label: 'Instagram', href: 'https://instagram.com', icon: 'instagram' },
@@ -29,7 +29,7 @@ export const agents = [
     id: 3,
     name: 'Hodan Rooble',
     role: 'Residential Sales Agent',
-    email: 'niitapeaabdulahi@gmail.com',
+    email: 'info@estate.com',
     phone: '+252 612762407',
     image: 'https://images.unsplash.com/photo-1589156280159-27698a70f29e?w=600&q=80',
     socialLinks: [
@@ -41,7 +41,7 @@ export const agents = [
     id: 4,
     name: 'Libaan Geedi',
     role: 'Commercial Property Advisor',
-    email: 'niitapeaabdulahi@gmail.com',
+    email: 'info@estate.com',
     phone: '+252 612762407',
     image: 'https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=600&q=80',
     socialLinks: [

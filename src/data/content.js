@@ -199,7 +199,7 @@ export const aboutPoints = [
 
 export const contactDetails = [
   { label: 'Address', value: 'Mogadishu, Somalia', icon: 'map' },
-  { label: 'Email', value: 'niitapeaabdulahi@gmail.com', icon: 'email' },
+  { label: 'Email', value: 'info@estate.com', icon: 'email' },
   { label: 'Phone', value: '+252 612762407', icon: 'phone' },
   { label: 'Hours', value: 'Mon – Fri, 9:00 AM – 6:00 PM', icon: 'clock' },
 ]

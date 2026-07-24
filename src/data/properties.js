@@ -173,12 +173,12 @@ export const properties = [
     status: 'For Sale',
     category: 'apartment',
     agentId: 2,
-    image: 'https://images.unsplash.com/photo-1512917772120-a819905279ec?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80',
     gallery: [
-      'https://images.unsplash.com/photo-1512917772120-a819905279ec?w=1200&q=80',
-      'https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=1200&q=80',
-      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1200&q=80',
-      'https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=1200&q=80',
+      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=1200&q=80',
     ],
     features: [
       'Private Balcony',
